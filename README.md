@@ -20,20 +20,7 @@ It is fully containerized using Docker and can be easily extended to production-
 | Bitnami Spark     | Prebuilt Spark image for simplified setup                   |
 | Python            | Language used in API, producer, and Spark job logic         |
 
-# 📁 Project Structure
-
-weather-data-pipeline/
-├── docker-compose.yml               # Orchestrates all services
-├── kafka_producer/
-│   └── weather_producer.py          # Producer script pushing data into Kafka
-├── spark/
-│   ├── spark_processor.py           # Spark job processing Kafka data
-│   └── sqlite_db.py                 # Handles SQLite insertions
-├── fast_api/
-│   └── api_server.py                # FastAPI endpoint fetching weather from OpenWeather
-├── alerts_db.py                     # Script to manually check SQLite data
-├── requirements.txt                 # Python dependencies
-└── README.md
+<img width="761" height="431" alt="image" src="https://github.com/user-attachments/assets/10f4c5e7-d03f-4ae5-8b69-11813dc517e7" />
 
 # ⚙️ How the Pipeline Works
 
