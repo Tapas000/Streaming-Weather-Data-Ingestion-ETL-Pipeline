@@ -1,5 +1,8 @@
 # 🌩️ Real-time Weather Data ETL Pipeline
 
+![1752523893951](https://github.com/user-attachments/assets/1f281e86-aefe-4c44-b271-f7ff42929765)
+
+
 This project demonstrates a real-time weather data ETL pipeline that:
 - Ingests live weather data using the OpenWeatherMap API via a FastAPI service
 - Streams data into Apache Kafka
